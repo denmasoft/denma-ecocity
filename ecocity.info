@@ -1,0 +1,57 @@
+name = Ecocity
+description = For Dnsempresas. Developed by DenmaSoft Inc
+core = 7.x
+engine = phptemplate
+
+; STYLESHEETS
+;----------------------------------------------------
+stylesheets[all][] = "fonts/specimen_files/specimen_stylesheet.css"
+stylesheets[all][] = "fonts/stylesheet.css"
+stylesheets[all][] = css/bootstrap.min.css
+stylesheets[all][] = css/font-awesome.min.css
+stylesheets[all][] = css/responsive.css
+; REGIONS
+;----------------------------------------------------
+
+regions[header]         = Header - Inner Pages Only
+regions[content_top]    = Content Top
+regions[content]        = Content
+regions[sidebar_first]  = Right Sidebar
+regions[help]           = Help
+regions[bottom]         = Bottom
+regions[footer]         = Footer
+
+; FEATURES
+;----------------------------------------------------
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = comment_user_verification
+features[] = favicon
+features[] = main_menu
+features[] = secondary_menu
+
+; SETTINGS
+;----------------------------------------------------
+settings[footer_copyright]   = 1
+settings[footer_developed]   = 1
+settings[footer_developedby]   = DenmaSoft Inc
+settings[footer_developedby_url]   = denmasoft.com
+settings[headertext]         = "Plan(et) ECOCITY Santiago procura transicionar cara a Economia circular enfrentando a xestion dos residuos urbanos de xeito innovador e sostibel"
+settings[centertext]         = "VIDEO INTERACTIVO Plan(et) ECOCITY"
+settings[foootertext]         = "Entre todos podemos facer algo grande"
+settings[text_bioresiduos]         = "Unha xestion innovadora dos bioresiduos"
+settings[text_circular]         = "Unha proposta integral na loxica da economia circular"
+settings[text_modelos]         = "O emprego de metodoloxias de innovacion social apoiados en modelos matematicos"
+settings[text_one]         = "Comporase dun conxunto de accions coherentes  e coordinadas que impliquen ao sector publico e ao privado nun uso eficiente dos recursos e nunha xestion consciente dos refugallos"
+settings[text_two]         = "Pretendose primar un uso mais eficiente dos materiais extraidos do medio ambiente, a amplicacion da vida util dos obxectos producidos, fundamentando o seu caracter innovador en 3 piares:"
+settings[enquisa_text]         = "Responda a ENQUISA ou envianos un video a traves de WHATSAPP ao telefono 604 001 458 coas tuas aportacions para o proxecto"
+settings[colone]         = <div class="image_wrapper"><img src="sites/all/themes/denma/images/promoted/col1.jpg"></div>Lorem ipsum dolor sit amet, <a href="#">consectetur adipiscing</a> elit. Fusce vel iaculis felis. Nulla nec turpis neque. In vel lorem et odio dictum dapibus. Vestibulum vitae sapien id mauris sollicitudin gravida. Vivamus nec risus nec turpis elementum molestie. Duis viverra pretium sapien.
+; Information added by Drupal.org packaging script on 2015-11-23
+version = "7.x-1.1"
+core = "7.x"
+project = "ecocity"
+datestamp = "1448266140"
+
